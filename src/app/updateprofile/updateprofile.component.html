@@ -4,7 +4,7 @@
 
     </div>
     <div class="col-md-6">
-        <div class="container">
+        <div class="container home my-5">
             <h2 class="text-center">Update Profile</h2>
             <hr>
             <form (ngSubmit)="updateProfile(); profileForm.resetForm()  " #profileForm="ngForm">
@@ -12,21 +12,26 @@
           
                     <label for="name">Full Name</label>
                     <input type="text" required class="form-control" id="name" name="name" [(ngModel)]="profiles.fullname" #name='ngModel'>
-                    <!-- <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                    <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
                         <p>Fullname is required</p>
-                      </div> -->
+                      </div>
                 </div>
                 <div class="form-group">
           
                     <label for="dept">Department</label>
-                    <input type="text" required class="form-control" id="dept" name="dept" [(ngModel)]="profiles.department">
+                    <input type="text" required class="form-control" id="dept" name="dept" [(ngModel)]="profiles.department" #dept='ngModel'>
+                    <div [hidden]="dept.valid || dept.pristine" class="alert alert-danger">
+                        <p>Please Enter the department</p>
+                      </div>
           
                 </div>
                 <div class="form-group">
           
                     <label for="job_id">Job_id</label>
-                    <input type="text" required class="form-control" id="job_id" name="job_id" [(ngModel)]="profiles.job_id">
-          
+                    <input type="text" required class="form-control" id="job_id" name="job_id" [(ngModel)]="profiles.job_id" #job='ngModel'>
+                    <div [hidden]="job.valid || job.pristine" class="alert alert-danger">
+                        <p>Enter job_id</p>
+                      </div>
                 </div>
         
                 <div class="form-group">
@@ -42,7 +47,7 @@
           
                 </div>
         
-                <button type="submit" [disabled]="!profileForm.valid" class="btn mb-5">Update</button>
+                <button type="submit" [disabled]="!profileForm.valid" class="btn-primary mb-5">Update</button>
 
 
                 

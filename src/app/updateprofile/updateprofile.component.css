@@ -6,7 +6,7 @@
 }
 
 hr {
-    background-color: white;
+    background-color: black;
 }
 
 .container-fluid form {
@@ -16,7 +16,18 @@ hr {
     max-width: 500px;
     flex-direction: column;
     border-radius: 20px;
-    font-family: 'Patrick Hand';
+    font-family: 'Patrick Hand';margin-left: 27px;
+
+    
+}
+.row{
+    background-image: url(../../assets/images/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 80%;
+    margin-left: 70px;
 }
 
 h2 {
@@ -36,3 +47,7 @@ button {
 label {
     font-size: 16px;
 }
+.home{
+    background-color: rgb(219, 208, 208);
+}
+
