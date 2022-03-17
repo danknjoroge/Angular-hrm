@@ -30,4 +30,5 @@ input {
 .container-fluid{
     background-color: red;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
