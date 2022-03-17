@@ -1,0 +1,33 @@
+input {
+    width: 400px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cancelbtn {
+    width: 130px;
+    height: 40px;
+    font-size: 19px;
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(121, 121, 126);
+}
+.signupbtn{
+    width: 130px;
+    height: 40px;
+    font-size: 19px;
+    margin-left: 15px; 
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(71, 71, 231);
+}
+.form-cont{
+    width: 550px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container-fluid{
+    background-color: red;
+    padding-bottom: 30px;
+}
