@@ -1,0 +1,308 @@
+.landing {
+    background-image: url("https://media.istockphoto.com/photos/close-up-of-calendar-on-the-table-planning-for-business-meeting-or-picture-id995353918?k=20&m=995353918&s=612x612&w=0&h=dAyBXDWrvNEK0o91GOvWCt2SO-K4yGGtDDU-fYsK1Rk=");
+    background-repeat: no-repeat;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    background-size: cover;
+    padding-top: 17%;
+    height: 800px;
+    font-size: 40px;
+}
+
+.landing,
+h1 {
+    padding: 2px;
+    margin: 5px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.landing,
+p {
+    padding: 2px;
+}
+
+#logo {
+    margin-top: 20%;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;
+}
+
+#mouse-click {
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.services {
+    background-image: url("https://media.istockphoto.com/photos/close-up-on-employee-man-hand-using-finger-pointing-schedule-on-to-picture-id1176623055?k=20&m=1176623055&s=612x612&w=0&h=K6uMK1j91neUTQnnEpS1VPS4m2BokZlUfzR8ydUbNm4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    color: rgb(11, 12, 15);
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#servicesoverlay {
+    background-color: rgba(0, 0, 0, 0, 4);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.what-we-do {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.what-we-do .headings {
+    padding-bottom: 38px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#porfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 16%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.col-md-3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portfolio h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#product,
+#development,
+#design {
+    display: none;
+    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.title {
+    padding: 6px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#product .title,
+#development .title,
+#design,
+title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Kaushan Script' cursive;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.contact {
+    background-image: url("https://media.istockphoto.com/photos/close-up-of-calendar-and-alarm-clock-on-the-green-background-planning-picture-id1161898151?k=20&m=1161898151&s=612x612&w=0&h=FgUm7aqWhrvJNk-jzW42zAuXgzESvn9sKDPPNGzN6DU=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(158, 35, 35);
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+input[type=text],
+input[type=email],
+#mce-MMERGE6 {
+    background: transparent;
+    color: rgb(151, 25, 25);
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: rgb(38, 151, 19);
+}
+
+#black1,
+#black2,
+#black3,
+#black4,
+#black5,
+#black6,
+#black7,
+#black8 {
+    display: none;
+    color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 238, 238);
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#mce-FNAME {
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+}
+
+#mce-EMAIL {
+    width: 30%;
+}
+
+#mce-MMERGE6 {
+    margin-left: 20%;
+    width: 60%;
+}
+
+button {
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 755px) {
+    .col-md-3 img {
+        width: 100%;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+    button {
+        margin-left: 2%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    #black1,
+    #black2,
+    #black3,
+    #black4,
+    #black5,
+    #black6,
+    #black7,
+    #black8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .col-md-3 img {
+        width: 100%;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+    button {
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    #mce-FNAME {
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
+    }
+    #mce-EMAIL {
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 20px;
+    }
+    #mce-MMERGE6 {
+        margin-left: 4%;
+        width: 84%;
+    }
+    #black1,
+    #black2,
+    #black3,
+    #black4,
+    #black5,
+    #black6,
+    #black7,
+    #black8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 825px) {
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 625px) {
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 6%;
+        margin-right: 10%;
+    }
+    #black1,
+    #black2,
+    #black3,
+    #black4,
+    #black5,
+    #black6,
+    #black7,
+    #black8 {
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
+        font-size: 26px;
+    }
+}
