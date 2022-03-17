@@ -1,0 +1,38 @@
+.container-fluid {
+
+    color: black;
+    height: 60vh;
+    align-items: left;
+}
+
+hr {
+    background-color: white;
+}
+
+.container-fluid form {
+    display: flex;
+    margin: 7px 30px;
+    padding: 0 6px;
+    max-width: 500px;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Patrick Hand';
+}
+
+h2 {
+    font-family:  cursive;
+    padding-top: 15px;
+    font-weight: 500;
+}
+button {
+    margin-top:20px;
+    color: white;
+    background-color: orangered;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+
+}
+label {
+    font-size: 16px;
+}
