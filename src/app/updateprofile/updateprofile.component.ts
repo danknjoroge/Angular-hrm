@@ -16,6 +16,7 @@ export class UpdateprofileComponent implements OnInit {
   @Output() addProfile  = new EventEmitter<Profile>();
   updateProfile(){
     this.addProfile.emit(this.profiles);
+    alert('Profile updated')
   }
 
   

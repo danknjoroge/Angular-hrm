@@ -8,7 +8,7 @@ import { UpdateprofileComponent } from './updateprofile/updateprofile.component'
 
 
 const routes: Routes = [
-  {path: 'home', component: LandingPageComponent},
+  {path: '', component: LandingPageComponent},
   {path:'request', component: RequestComponent},
   {path:'login', component:SigninComponent },
   {path:'signup', component:SignupComponent},
